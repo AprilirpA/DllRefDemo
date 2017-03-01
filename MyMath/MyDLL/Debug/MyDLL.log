@@ -1,0 +1,38 @@
+﻿生成启动时间为 2017/3/2 6:32:54。
+     1>项目“D:\Git\NuGet_ProGet\DllRef\MyMath\MyDLL\MyDLL.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\MyDLL.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         所有输出均为最新。
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D MYDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\MyDLL.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt MyDLL.cpp
+         MyDLL.cpp
+     1>d:\git\nuget_proget\dllref\mymath\mydll\mydll.cpp(13): warning C4273: “MathFuncs::MyMathFuncs::Add”: dll 链接不一致
+                 d:\git\nuget_proget\dllref\mymath\mydll\mydll.h(13) : 参见“Add”的前一个定义
+     1>d:\git\nuget_proget\dllref\mymath\mydll\mydll.cpp(18): warning C4273: “MathFuncs::MyMathFuncs::Subtract”: dll 链接不一致
+                 d:\git\nuget_proget\dllref\mymath\mydll\mydll.h(16) : 参见“Subtract”的前一个定义
+     1>d:\git\nuget_proget\dllref\mymath\mydll\mydll.cpp(23): warning C4273: “MathFuncs::MyMathFuncs::Multiply”: dll 链接不一致
+                 d:\git\nuget_proget\dllref\mymath\mydll\mydll.h(19) : 参见“Multiply”的前一个定义
+     1>d:\git\nuget_proget\dllref\mymath\mydll\mydll.cpp(28): warning C4273: “MathFuncs::MyMathFuncs::Divide”: dll 链接不一致
+                 d:\git\nuget_proget\dllref\mymath\mydll\mydll.h(23) : 参见“Divide”的前一个定义
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Git\NuGet_ProGet\DllRef\MyMath\Debug\MyDLL.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\MyDLL.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Git\NuGet_ProGet\DllRef\MyMath\Debug\MyDLL.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Git\NuGet_ProGet\DllRef\MyMath\Debug\MyDLL.lib" /MACHINE:X86 /DLL Debug\MyDLL.dll.embed.manifest.res
+         Debug\dllmain.obj
+         Debug\MyDLL.obj
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\MyDLL.dll.embed.manifest" /manifest Debug\MyDLL.dll.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         MyDLL.vcxproj -> D:\Git\NuGet_ProGet\DllRef\MyMath\Debug\MyDLL.dll
+       FinalizeBuildStatus:
+         正在删除文件“Debug\MyDLL.unsuccessfulbuild”。
+         正在对“Debug\MyDLL.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\Git\NuGet_ProGet\DllRef\MyMath\MyDLL\MyDLL.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.70
